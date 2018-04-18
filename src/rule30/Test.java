@@ -4,6 +4,7 @@ public class Test {
 	public enum Style{aa,bb,cc}
     public final static int apple_small = 0;
 	public static void main(String[] args) {
+		System.out.println(Runtime.getRuntime().availableProcessors());
 		System.out.println(Orange.ORANGE_SMALL.ordinal()==Apple.APPLE_SMALL.ordinal());
 		System.out.println(Orange.ORANGE_SMALL.ordinal()==apple_small);
 		System.out.println(Orange.ORANGE_SMALL);
